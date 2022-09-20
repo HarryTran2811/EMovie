@@ -29,6 +29,9 @@ namespace EMovie.Models
         [Required(ErrorMessage = "Image is required")]
         public string ImageURL { get; set; }
 
+        [Display(Name = "Trailer source")]
+        [Required(ErrorMessage = "Trailer is required")]
+        public string TrailerURL { get; set; }
         [Display(Name = "Film source")]
         [Required(ErrorMessage = "Film source is required")]
         public string FilmURL { get; set; }
